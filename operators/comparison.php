@@ -22,6 +22,30 @@ echo "Identical (value and type) ( a === b ) : </br>";
 var_dump($a===$b);
 echo "</br>";
 
+echo "Not equal ( != or <> ) : </br>";
+var_dump($a!=$b);
+echo "</br>";
+
+echo "Not identical ( != or <> ) : </br>";
+var_dump($a!=$b);
+echo "</br>";
+
+echo "Greater than ( a > b ) : </br>";
+var_dump($a>$b);
+echo "</br>";
+
+echo "Less than ( a < b ) : </br>";
+var_dump($a<$b);
+echo "</br>";
+
+echo "Greater than or equal ( a >= b ) : </br>";
+var_dump($a>=$b);
+echo "</br>";
+
+echo "Less than or equal ( a <= b ) : </br>";
+var_dump($a<=$b);
+echo "</br>";
+
 
 
 
