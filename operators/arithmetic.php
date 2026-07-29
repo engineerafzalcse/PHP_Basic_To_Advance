@@ -7,7 +7,7 @@ echo "2. Subtraction : ( - )</br>";
 echo "3. Multiplication : ( * )</br>";
 echo "4. Division : ( / )</br>";
 echo "5. Modulus (remainder) : ( % )</br>";
-echo "6.  : ( ** )</br>";
+echo "6. Exponentiation : ( ** )</br>";
 
 $a = 10;
 $b = 3;

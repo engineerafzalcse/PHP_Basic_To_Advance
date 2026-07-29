@@ -3,9 +3,12 @@
 echo "<h4>In PHP, operators are symbols used to perform operations on variables and values.</h4>";
 echo "<h5>Logical Operators: Used to combine conditions.</h5>";
 
+
+$x = 5;
+$y = 10;
 echo "1. AND : ( && )</br>";
 echo "2. NOT ( ! )</br>";
-// echo "3. AND : ( and )</br>";
+echo "3. AND : ( and ) = True if both $x and $y are true</br>";
 echo "4. OR : ( or )</br>";
 echo "5. OR : ( || )</br>";
 echo "6. Exclusive OR : ( xor )</br>";
