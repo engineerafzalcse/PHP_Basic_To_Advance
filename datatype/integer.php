@@ -5,6 +5,9 @@
 // PHP_INT_MIN;
 // PHP_INT_SIZE;
 
+// Data Type :
+// int, string, float, bool, array, object, null, resorce.
+
 // is_int();
 // is_integer();
 // is_long();
