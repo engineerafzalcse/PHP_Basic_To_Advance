@@ -17,68 +17,49 @@ echo "<h5>২. Condition</h5>";
 echo "<h5>৩. Increment / Decrement</h5>";
 
 
-echo "<h4>1. for Loop</h4>";
-echo "<h5>1 থেকে 5</h5>";
 
+echo "<h4>2. while Loop : Condition আগে Check করে।</h4>";
 
-for($i=1; $i<=5; $i++){
-
+$i = 1;
+while($i <= 5){
     echo $i."<br>";
-
+    $i++;
 }
 
-echo "<h5>১০ থেকে ১</h5>";
-
-for($i=10; $i>=1; $i--){
-
+$i = 10;
+while($i >= 1){
     echo $i."<br>";
-
+    $i--;
 }
-echo "<h5>Even Number : </h5>";
 
-for($i=1; $i<=10; $i++){
+echo "1 থেকে 5 পর্যন্ত Even Number : </br>";
 
+$i = 2;
+while($i <= 10){
     if($i%2==0){
         echo $i."<br>";
     }
-
+    $i++;
 }
 
-for($i=2; $i<=10; $i+=2){
-    echo $i."</br>";
+echo "</br>";
+echo "1 থেকে 10 পর্যন্ত Odd Number : </br>";
+$i = 1;
+while($i <= 10){
+    if($i%2!=0){
+        echo $i."<br>";
+    }
+    $i++;
 }
 
 echo "</br>";
 echo "<h5>Multiplication Table : </h5>";
 $number = 5;
-
-for($i=1; $i<=10; $i++){
-
+$i = 1;
+while($i <= 10){
     echo "$number x $i = ".($number*$i)."<br>";
-
+    $i++;
 }
 
-echo "<h5>Sum : </h5>";
-$sum = 0;
-for($i=1; $i<=10; $i++){
-    $sum += $i;
-}
-echo $sum;
-
-
-
-echo "</br>";
-echo "<h5>Factorial : </h5>";
-$fact = 1;
-
-for($i=1; $i<=5; $i++){
-
-    $fact *= $i;
-
-}
-
-echo $fact;
-
-echo "</br>";
 
 ?>
