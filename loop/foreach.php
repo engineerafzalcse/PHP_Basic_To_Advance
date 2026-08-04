@@ -45,5 +45,16 @@ foreach($student as $key=>$value){
 }
 
 
+echo "</br>";
+echo "<h5>Laravel-এ Loop কোথায় ব্যবহার হয়?</h5>";
+echo "✅ Users List</br>";
+echo "✅ Product List</br>";
+echo "✅ Orders</br>";
+echo "✅ Invoice Items</br>";
+echo "✅ API Response</br>";
+echo "✅ Database Records</br>";
+echo "✅ Eloquent Collection</br>";
+echo "✅ Blade Templates (@foreach, @for, @while)</br>";
+
 
 ?>

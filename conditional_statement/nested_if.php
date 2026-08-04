@@ -49,6 +49,13 @@ if($username=="admin"){
 
 }
 
+echo "✅ User Role (Admin, Manager, Employee)</br>";
+echo "✅ Order Status (Pending, Processing, Shipped, Delivered)</br>";
+echo "✅ Payment Status (Paid, Unpaid, Refunded)</br>";
+echo "✅ Leave Status (Pending, Approved, Rejected)</br>";
+echo "✅ Invoice Status (Draft, Sent, Paid, Overdue)</br>";
+echo "✅ Ticket Priority (Low, Medium, High)</br>";
+
 
 
 echo "</br>End ------------ End</br></br>";
