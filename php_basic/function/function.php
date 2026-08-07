@@ -25,6 +25,11 @@ echo "<h4>১৭. Function Chaining</h4>";
 echo "<h4>১৮. Function Decorators</h4>";
 
 
+// function keyword
+// function Name
+// () Function Head
+// {} Function Body
+
 // Function Declaration / Definition
 echo "<h5>১. Function Declaration / Definition</h5>";
 function showName(){
