@@ -77,8 +77,70 @@ echo "=> তবে, [],  এটি array_push() এর চেয়ে দ্র
 // $fruits[] = "Banana"; // This is a shorthand way to add a new element to the end of the $fruits array. It is faster than using array_push() because it does not involve a function call and has less overhead.
 // array_push($fruits, "Banana", "Orange", "Mango"); // This is a more explicit way to add multiple new elements to the end of the $fruits array. It is slower than using [] because it involves a function call and has more overhead.
 
+echo "<h3>4. array_pop() : এটি Array-এর শেষ element Remove করে।</h3>";
 
+$fruits = [
+    "Apple",
+    "Mango",
+    "Banana"
+];
 
+array_pop($fruits); // Remove the last element "Banana" from the $fruits array
+
+print_r($fruits); // Output: Array ( [0] => Apple [1] => Mango )
+echo "<h4>array_pop() কী Return করে?</h4>";
+echo "এটি যে element Remove করে, সেটিই return করে।</br>";
+echo "<h4>5. array_shift() : array_shift() Array-এর প্রথম element Remove করে।</h4>";
+$fruits = [
+    "Apple",
+    "Mango",
+    "Banana"
+];
+
+array_shift($fruits);
+
+print_r($fruits); // Output: Array ( [0] => Mango [1] => Banana )
+echo "<h4>6. array_unshift() : এটি Array-এর শুরুতে এক বা একাধিক নতুন element যোগ করে।</h4>";
+$fruits = ["Banana"];
+
+array_unshift(
+    $fruits,
+    "Apple",
+    "Mango",
+    "Orange"
+);
+
+print_r($fruits);
+
+echo "<h4>একটি Complete Example</h4>";
+
+$products = [
+    "Keyboard",
+    "Mouse",
+    "Monitor"
+];
+
+echo "Total: " . count($products) . "<br>";
+
+array_push($products, "Webcam");
+
+echo "After Push:<br>";
+print_r($products);
+
+echo "<br>";
+
+$lastProduct = array_pop($products);
+
+echo "Removed Last: " . $lastProduct . "<br>";
+
+$firstProduct = array_shift($products);
+
+echo "Removed First: " . $firstProduct . "<br>";
+
+array_unshift($products, "Laptop");
+
+echo "Final Products:<br>";
+print_r($products);
 
 
 echo "</br>";
